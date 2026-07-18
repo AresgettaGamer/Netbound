@@ -1,0 +1,48 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": [
+      "AresgettaYT"
+    ],
+    "product_type": "addon"
+  },
+  "header": {
+    "name": "Netbound! RP",
+    "description": "Recursos, catálogo visual y traducciones de Netbound!",
+    "min_engine_version": [
+      1,
+      21,
+      130
+    ],
+    "uuid": "e07d2fbe-e8c6-42ce-b4bc-d02bffab3a34",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "aa50f247-17d7-4719-91c2-7c36b9427547",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ],
+  "dependencies": [
+    {
+      "uuid": "7deb881c-c436-4b52-94ff-130ff144c134",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
