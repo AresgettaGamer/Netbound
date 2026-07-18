@@ -1,1 +1,27 @@
-
+{
+  "format_version": "1.21.130",
+  "minecraft:item": {
+    "description": {
+      "identifier": "netbound:net",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "item.netbound:net"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "netbound_net"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:glint": true,
+      "minecraft:durability": {
+        "max_durability": 1000
+      }
+    }
+  }
+}
