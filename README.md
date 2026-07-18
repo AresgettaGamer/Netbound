@@ -39,7 +39,7 @@ recreación con `spawnEntity`.
 - HP y addon usan el color automático del botón para permanecer visibles tanto
   seleccionado como sin seleccionar.
 - Autor actualizado a **AresgettaYT**.
-- Catálogo ampliado con Gorila y entidades de Better On Bedrock, Beyond The
+- Catálogo ampliado con entidades de Better On Bedrock, Beyond The
   Underground, Crabber's Delight Bedrock y Shark Biology 2.
 - Proyectiles, placeholders, bloques-entidad y auxiliares detectados en esos
   addons se bloquean explícitamente.
@@ -150,19 +150,6 @@ Con permisos para ejecutar comandos:
 - `status` muestra cuántas estructuras activas registra el addon.
 - `repair_held` elimina de la red sostenida únicamente referencias cuyo archivo
   de estructura ya no existe. No borra estructuras ni entidades.
-
-## Pruebas recomendadas
-
-1. Vaca con nombre y vida parcial.
-2. Oveja bebé y oveja teñida.
-3. Zombi con equipamiento.
-4. Lobo salvaje.
-5. Lobo propio y lobo de otro jugador.
-6. Entidad atada, montada o con pasajero.
-7. Cucaracha, colibrí, mapache, oso hormiguero y los tres bagres.
-8. Reiniciar el servidor con criaturas guardadas y liberarlas después.
-9. Copiar una red ocupada en creativo y comprobar que la segunda copia falle
-   de forma segura después de liberar la primera.
 
 ## Limitaciones conocidas
 
