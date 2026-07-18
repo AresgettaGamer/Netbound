@@ -1,0 +1,14 @@
+{
+  "name": "netbound-bedrock-addon",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc -p tsconfig.check.json"
+  },
+  "devDependencies": {
+    "@minecraft/server": "2.8.0",
+    "@minecraft/server-ui": "2.1.0",
+    "typescript": "5.8.3"
+  }
+}
