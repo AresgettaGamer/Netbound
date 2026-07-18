@@ -23,7 +23,6 @@ recreación con `spawnEntity`.
 - Nueva identidad completa **Netbound!** y namespace `netbound`.
 - La interfaz muestra criatura, domesticación, etiqueta, HP y addon de origen.
 - Catálogo editable para corregir identifiers poco descriptivos de otros addons.
-- Alex's Mobs incluye nombres iniciales para las criaturas reconstruidas.
 - Se mantienen los iconos genéricos seguros para vanilla, addons, hostiles y
   criaturas propias.
 
