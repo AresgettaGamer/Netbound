@@ -1,0 +1,42 @@
+pack.netbound.behavior.name=Netbound! BP
+pack.netbound.behavior.description=Guarda criaturas salvajes y propias de Minecraft vanilla y otros addons.
+pack.netbound.resource.name=Netbound! RP
+pack.netbound.resource.description=Recursos, catálogo visual y traducciones de Netbound!
+item.netbound:net=Netbound!
+
+lore.netbound.count=§r§a%1/%2 criaturas guardadas
+lore.netbound.capture_help=§r§7Úsala en una criatura para capturar
+lore.netbound.release_help=§r§7Úsala en un bloque para liberar
+
+ui.netbound.title=Criaturas guardadas
+ui.netbound.body=Elige una criatura para liberarla. %1/%2 espacios ocupados.
+ui.netbound.name_tag= · %1
+
+message.netbound.invalid=§cEsa criatura ya no está disponible.
+message.netbound.blocked=§cEsa entidad no se puede capturar.
+message.netbound.no_health=§cSolo se pueden capturar criaturas vivas.
+message.netbound.too_strong=§cEsa criatura supera el límite de vida de la red.
+message.netbound.linked=§cRetira todos los pasajeros antes de capturar esta criatura.
+message.netbound.leashed=§cQuita la rienda antes de capturar esta criatura.
+message.netbound.tamed=§cEsta red no permite criaturas domesticadas.
+message.netbound.owner_unknown=§cNo se pudo verificar al dueño de esta criatura domesticada.
+message.netbound.other_owner=§cNo puedes capturar la criatura de otro jugador.
+message.netbound.capture_failed=§cLa captura falló. La criatura no se descartó intencionalmente.
+message.netbound.capture_rolled_back=§eLa captura falló y la criatura fue restaurada.
+message.netbound.capture_recovery_needed=§cLa captura necesita recuperación administrativa. Revisa el registro del servidor.
+message.netbound.cell_occupied=§ePrimero aleja de la criatura otras entidades u objetos.
+message.netbound.no_durability=§cLa red necesita %1 puntos de durabilidad para esta criatura.
+message.netbound.full=§eLa red está llena (%1 criaturas).
+message.netbound.captured=§aCriatura capturada. %1/%2 espacios ocupados.
+message.netbound.empty=§eLa red está vacía.
+message.netbound.released=§aCriatura liberada. Quedan %1 capturas.
+message.netbound.release_failed=§cNo se pudo liberar la criatura. Su estructura guardada se conservó.
+message.netbound.released_with_warning=§eLa criatura fue liberada, pero la red puede necesitar reparación administrativa.
+message.netbound.missing_structure=§cFalta la estructura de esta captura. Usa la reparación solo después de revisar respaldos.
+message.netbound.net_changed=§eLa red sostenida cambió y la operación fue cancelada.
+message.netbound.busy=§eEsa criatura o captura ya se está procesando.
+message.netbound.ui_failed=§cNo se pudo abrir la lista de criaturas.
+message.netbound.blocked_block=§cLa red no puede liberar criaturas contra este bloque.
+message.netbound.status=§7Netbound!: %1 registros y %2 estructuras guardadas.
+message.netbound.hold_net=§ePrimero sostén una red Netbound!.
+message.netbound.repaired=§aSe eliminaron %1 referencias inexistentes de la red sostenida.

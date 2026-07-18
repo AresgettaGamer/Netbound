@@ -1,1 +1,42 @@
+pack.netbound.behavior.name=Netbound! BP
+pack.netbound.behavior.description=Safely stores wild and owned creatures from vanilla Minecraft and other add-ons.
+pack.netbound.resource.name=Netbound! RP
+pack.netbound.resource.description=Original resources, entity catalog, and translations for Netbound!
+item.netbound:net=Netbound!
 
+lore.netbound.count=§r§a%1/%2 creatures stored
+lore.netbound.capture_help=§r§7Use on a creature to capture
+lore.netbound.release_help=§r§7Use on a block to release
+
+ui.netbound.title=Stored Creatures
+ui.netbound.body=Choose a creature to release. %1/%2 slots used.
+ui.netbound.name_tag= · %1
+
+message.netbound.invalid=§cThat creature is no longer available.
+message.netbound.blocked=§cThat entity cannot be captured.
+message.netbound.no_health=§cOnly living creatures can be captured.
+message.netbound.too_strong=§cThat creature exceeds the net's health limit.
+message.netbound.linked=§cDismount all riders before capturing this creature.
+message.netbound.leashed=§cRemove the leash before capturing this creature.
+message.netbound.tamed=§cTamed creatures are disabled for this net.
+message.netbound.owner_unknown=§cThe owner of this tamed creature cannot be verified.
+message.netbound.other_owner=§cYou cannot capture another player's creature.
+message.netbound.capture_failed=§cThe capture failed. The creature was not intentionally discarded.
+message.netbound.capture_rolled_back=§eThe capture failed and the creature was restored.
+message.netbound.capture_recovery_needed=§cThe capture needs administrative recovery. Check the server log.
+message.netbound.cell_occupied=§eMove other entities or items away from the creature first.
+message.netbound.no_durability=§cThe net needs %1 durability points for this creature.
+message.netbound.full=§eThe net is full (%1 creatures).
+message.netbound.captured=§aCreature captured. %1/%2 slots used.
+message.netbound.empty=§eThe net is empty.
+message.netbound.released=§aCreature released. %1 captures remain.
+message.netbound.release_failed=§cThe creature could not be released. Its stored structure was kept.
+message.netbound.released_with_warning=§eThe creature was released, but the net may need administrative repair.
+message.netbound.missing_structure=§cThis capture's stored structure is missing. Use the repair command only after checking backups.
+message.netbound.net_changed=§eThe held net changed, so the operation was canceled.
+message.netbound.busy=§eThat creature or capture is already being processed.
+message.netbound.ui_failed=§cThe creature list could not be opened.
+message.netbound.blocked_block=§cThe net cannot release creatures against this block.
+message.netbound.status=§7Netbound!: %1 registry entries and %2 stored structures.
+message.netbound.hold_net=§eHold a Netbound! net first.
+message.netbound.repaired=§aRemoved %1 missing references from the held net.
