@@ -1,1 +1,39 @@
-
+{
+  "format_version": "1.21.130",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "netbound:net_recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " SS",
+      " SI",
+      "T E"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:string"
+      },
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "T": {
+        "item": "minecraft:stick"
+      },
+      "E": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:ender_pearl"
+      }
+    ],
+    "result": {
+      "item": "netbound:net",
+      "count": 1
+    }
+  }
+}
