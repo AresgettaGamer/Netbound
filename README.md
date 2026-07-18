@@ -172,6 +172,3 @@ La licencia correspondiente está en
 
 El código y los recursos originales de Netbound! se publican bajo la licencia
 MIT incluida en `LICENSE`.
-
-No se reutilizó código, nombre, textura ni recurso de Magic Net, publicado como
-All Rights Reserved.
