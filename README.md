@@ -32,7 +32,6 @@ recreación con `spawnEntity`.
 - Cada botón usa como máximo dos líneas visibles: nombre y etiqueta en la
   primera; HP y addon de origen en la segunda.
 - Se eliminó el prefijo largo `Etiqueta:` para evitar que la vida quede oculta.
-- Se añadió `alexs_mobs:flying_fish` al catálogo como **Pez volador**.
 - Es totalmente compatible con las redes y capturas creadas en v0.2.0.
 
 ## Cambios de v0.3.0
@@ -127,7 +126,6 @@ Netbound! usa la clave de traducción propia de la entidad cuando existe y, como
 - Si está domesticada pero el propietario no se puede verificar, se bloquea.
 - Se bloquean jugadores, jefes definidos, entidades sin vida, criaturas
   montadas, criaturas con pasajeros y criaturas atadas.
-- `alexs_mobs:anaconda` queda bloqueada hasta validar el sistema multiparte.
 - Una celda de captura debe contener únicamente la criatura objetivo; esto
   evita clonar accidentalmente objetos u otras entidades cercanas.
 
