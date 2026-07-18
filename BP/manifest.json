@@ -1,1 +1,64 @@
-
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": [
+      "AresgettaYT"
+    ],
+    "product_type": "addon"
+  },
+  "header": {
+    "name": "Netbound! BP",
+    "description": "Captura, organiza y libera entidades vanilla y de otros addons.",
+    "min_engine_version": [
+      1,
+      21,
+      130
+    ],
+    "uuid": "7deb881c-c436-4b52-94ff-130ff144c134",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "39b99ebc-7f93-4b0b-8fc9-64e4cd46861c",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "36600bce-aac2-44f1-86c5-eb94544fba17",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "e07d2fbe-e8c6-42ce-b4bc-d02bffab3a34",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.8.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.1.0"
+    }
+  ]
+}
